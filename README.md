@@ -4,7 +4,7 @@ An app for managing **Services** such as **GetConnect**, **Firebase** and **AppW
 
 The app use abstract class to ensure that all the services have the same function calls. 
 
-It is a good practice as it is useful for splitting the codes so that you can test on development while still having a stable production, or if you are planning to port over a new service into the app.
+It is a good practice for splitting codes so that you can test on development while still having a stable production, or if you are planning to port over a new service into the app.
 
 ## Setup
 Create an **Abstract Class** to manage all the Services function.
