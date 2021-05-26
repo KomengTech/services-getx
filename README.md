@@ -52,7 +52,7 @@ class TestServices implements AbstractServices {
 <pre lang="javascript"><code>
 getx_services.dart
 
-class GetXServices implements AbstractServices {
+class GetXServices extends GetConnect implements AbstractServices {
   @override
   void init({required String baseUrl}) {
     // TODO: implement init() function
@@ -173,7 +173,7 @@ class TestServices implements AbstractServices {
 <pre lang="javascript"><code>
 getx_services.dart
 
-class GetXServices implements AbstractServices {
+class GetXServices extends GetConnect implements AbstractServices {
   @override
   void init({required String baseUrl}) {
     // TODO: implement init() function
